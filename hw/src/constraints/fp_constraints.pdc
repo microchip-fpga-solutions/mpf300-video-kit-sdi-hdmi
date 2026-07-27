@@ -1,0 +1,43 @@
+# Microchip Physical design constraints file
+ 
+# Version: 2025.1 2025.1.0.14
+ 
+# Design Name: top
+ 
+# Input Netlist Format: EDIF
+ 
+# Family: PolarFire , Die: MPF300T , Package: FCG1152 , Speed grade: -1
+ 
+# Date generated: Wed Apr  1 10:53:42 2026
+ 
+ 
+#
+# Local clock constraints
+#
+ 
+ 
+#
+# Region constraints
+#
+ 
+ 
+#
+# Core cell constraints
+#
+ 
+set_location -inst_name SDI_HDMI_top_0/HDMI_Top_0/PF_XCVR_ERM_C1_0/I_XCVR/LANE2 -fixed true -x 2461 -y 344
+set_location -inst_name SDI_HDMI_top_0/HDMI_Top_0/PF_XCVR_ERM_C1_0/I_XCVR/LANE1 -fixed true -x 2460 -y 344
+set_location -inst_name SDI_HDMI_top_0/SDI_Top_0/PF_XCVR_ERM_C0_0/I_XCVR/LANE0 -fixed true -x 2460 -y 98
+set_location -inst_name SDI_HDMI_top_0/SDI_Top_0/SDI_Clocks_Resets_1/PF_TX_PLL_C1_0/PF_TX_PLL_C1_0/txpll_isnt_0 -fixed true -x 2466 -y 101
+set_location -inst_name SDI_HDMI_top_0/HDMI_Top_0/PF_XCVR_ERM_C1_0/I_XCVR/LANE3 -fixed true -x 2460 -y 371
+set_location -inst_name clocks_and_reset_1/PF_XCVR_REF_CLK_C4_0/PF_XCVR_REF_CLK_C4_0/I_IO -fixed true -x 2467 -y 371
+set_location -inst_name SDI_HDMI_top_0/HDMI_Top_0/PF_XCVR_ERM_C1_0/I_XCVR/LANE0 -fixed true -x 2460 -y 317
+set_location -inst_name SDI_HDMI_top_0/HDMI_Top_0/HDMI_Clocks_Resets_1/PF_TX_PLL_C0_0/PF_TX_PLL_C0_0/txpll_isnt_0 -fixed true -x 2466 -y 320
+#CCC
+set_location -inst_name SDI_HDMI_top_0/SDI_Top_0/SDI_Clocks_Resets_1/PF_CCC_divide_1or10_0/PF_CCC_divide_1or10_0/pll_inst_0 -fixed true -location PLL0_NW
+set_location -inst_name SDI_HDMI_top_0/HDMI_Top_0/HDMI_Clocks_Resets_1/PF_CCC_HDMIRX_SYS_CLK_0/PF_CCC_HDMIRX_SYS_CLK_0/pll_inst_0 -fixed true -location PLL0_NE
+set_location -inst_name SDI_HDMI_top_0/HDMI_Top_0/HDMI_Clocks_Resets_1/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0 -fixed true -location PLL1_NE
+set_location -inst_name clocks_and_reset_1/PF_CCC_C1_0/PF_CCC_C1_0/pll_inst_0 -fixed true -location PLL0_SW
+set_location -inst_name SDI_HDMI_top_0/HDMI_Top_0/HDMI_Clocks_Resets_1/PF_CCC_HDMI_CDR_REF_0/PF_CCC_HDMI_CDR_REF_0/pll_inst_0 -fixed true -location PLL1_SW
+set_location -inst_name SDI_HDMI_top_0/SDI_Top_0/SDI_Clocks_Resets_1/PF_CCC_divide10_0/PF_CCC_divide10_0/pll_inst_0 -fixed true -location PLL0_SE
+set_location -inst_name SDI_HDMI_top_0/SDI_Top_0/SDI_Clocks_Resets_1/PF_CCC_SDI_XCVR_CLK_REF_0/PF_CCC_SDI_XCVR_CLK_REF_0/pll_inst_0 -fixed true -location PLL1_SE

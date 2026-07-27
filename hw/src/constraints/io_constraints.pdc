@@ -1,0 +1,333 @@
+# Microchip I/O Physical Design Constraints file
+
+# User I/O Constraints file 
+
+# Version: 2025.1 2025.1.0.14
+
+# Family: PolarFire , Die: MPF300T , Package: FCG1152
+
+# Date generated: Wed Apr  1 11:17:29 2026 
+
+
+# 
+# User Locked I/O Bank Settings
+# 
+
+
+# 
+# Unlocked I/O Bank Settings
+# The I/O Bank Settings can be locked by directly editing this file
+# or by making changes in the I/O Attribute Editor
+# 
+
+
+# 
+# User Locked I/O settings
+# 
+
+set_io -port_name FMC_135or148p5MHz_CLK_SEL  \
+    -pin_name W11                            \
+    -fixed true                              \
+    -io_std LVCMOS25                         \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name HDMI_SCL  \
+    -pin_name M22           \
+    -fixed true             \
+    -DIRECTION INOUT
+
+
+set_io -port_name HDMI_SDA  \
+    -pin_name M23           \
+    -fixed true             \
+    -DIRECTION INOUT
+
+
+set_io -port_name SDI_DIVEN  \
+    -pin_name U6               \
+    -fixed true                \
+    -io_std LVCMOS25           \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name SDI_DIVMR  \
+    -pin_name V6               \
+    -fixed true                \
+    -io_std LVCMOS25           \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name SDI_SELB0  \
+    -pin_name W10              \
+    -fixed true                \
+    -io_std LVCMOS25           \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name SDI_SELB1  \
+    -pin_name Y10              \
+    -fixed true                \
+    -io_std LVCMOS25           \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name HPD_HDMITx  \
+    -pin_name L22             \
+    -fixed true               \
+    -DIRECTION INPUT
+
+
+set_io -port_name HPD_O  \
+    -pin_name AG24       \
+    -fixed true          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name HPD_Rx_I  \
+    -pin_name AL22          \
+    -fixed true             \
+    -DIRECTION INPUT
+
+
+set_io -port_name LED1  \
+    -pin_name G17       \
+    -fixed true         \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name LED2_SDI_TxPLL_LOCK  \
+    -pin_name K23                      \
+    -fixed true                        \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name LED3_HDMI_TxPLL_LOCK  \
+    -pin_name L23                       \
+    -fixed true                         \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name LED4_SDI_Rx_Alignment  \
+    -pin_name B25                        \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name SCL_I  \
+    -pin_name AJ25       \
+    -fixed true          \
+    -DIRECTION INPUT
+
+
+set_io -port_name SDA  \
+    -pin_name AH25     \
+    -fixed true        \
+    -DIRECTION INOUT
+
+
+set_io -port_name SDO1_DISABLE  \
+    -pin_name Y11               \
+    -fixed true                 \
+    -io_std LVCMOS25            \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name SPISCLKO  \
+    -pin_name V11           \
+    -fixed true             \
+    -io_std LVCMOS25        \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name SPISDI  \
+    -pin_name U12         \
+    -fixed true           \
+    -io_std LVCMOS25      \
+    -DIRECTION INPUT
+
+
+set_io -port_name SPISDO  \
+    -pin_name U11         \
+    -fixed true           \
+    -io_std LVCMOS25      \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name SPISS_Reclocker  \
+    -pin_name V12                  \
+    -fixed true                    \
+    -io_std LVCMOS25               \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name SPISS_RxDriverReclkr  \
+    -pin_name AC7                       \
+    -fixed true                         \
+    -io_std LVCMOS25                    \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name SPISS_TxDriver  \
+    -pin_name W14                 \
+    -fixed true                   \
+    -io_std LVCMOS25              \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name UART_TX_O  \
+    -pin_name AL23           \
+    -fixed true              \
+    -DIRECTION OUTPUT
+
+
+
+# 
+# Dedicated Peripheral I/O Settings
+# 
+
+
+# 
+# Unlocked I/O settings
+# The I/Os in this section are unplaced or placed but are not locked
+# the other listed attributes have been applied
+# 
+
+
+#
+#Ports using Dedicated Pins
+
+#
+
+set_io -port_name LANE0_RXD_N  \
+    -pin_name M30              \
+    -DIRECTION INPUT
+
+
+set_io -port_name LANE0_RXD_N_0  \
+    -pin_name AC32               \
+    -DIRECTION INPUT
+
+
+set_io -port_name LANE0_RXD_P  \
+    -pin_name M29              \
+    -DIRECTION INPUT
+
+
+set_io -port_name LANE0_RXD_P_0  \
+    -pin_name AC31               \
+    -DIRECTION INPUT
+
+
+set_io -port_name LANE0_TXD_N  \
+    -pin_name AD34             \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name LANE0_TXD_N_0  \
+    -pin_name N32                \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name LANE0_TXD_P  \
+    -pin_name AD33             \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name LANE0_TXD_P_0  \
+    -pin_name N31                \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name LANE1_RXD_N  \
+    -pin_name AD30             \
+    -DIRECTION INPUT
+
+
+set_io -port_name LANE1_RXD_P  \
+    -pin_name AD29             \
+    -DIRECTION INPUT
+
+
+set_io -port_name LANE1_TXD_N  \
+    -pin_name AE32             \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name LANE1_TXD_P  \
+    -pin_name AE31             \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name LANE2_RXD_N  \
+    -pin_name AG32             \
+    -DIRECTION INPUT
+
+
+set_io -port_name LANE2_RXD_P  \
+    -pin_name AG31             \
+    -DIRECTION INPUT
+
+
+set_io -port_name LANE2_TXD_N  \
+    -pin_name AF34             \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name LANE2_TXD_P  \
+    -pin_name AF33             \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name LANE3_RXD_N  \
+    -pin_name AH30             \
+    -DIRECTION INPUT
+
+
+set_io -port_name LANE3_RXD_P  \
+    -pin_name AH29             \
+    -DIRECTION INPUT
+
+
+set_io -port_name LANE3_TXD_N  \
+    -pin_name AH34             \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name LANE3_TXD_P  \
+    -pin_name AH33             \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name REF_CLK_135_148p5_PAD_N  \
+    -pin_name N28                          \
+    -DIRECTION INPUT
+
+
+set_io -port_name REF_CLK_135_148p5_PAD_P  \
+    -pin_name N27                          \
+    -DIRECTION INPUT
+
+
+set_io -port_name HDMI_CABLE_REF_CLK_PAD_N  \
+    -pin_name AE28                  \
+    -DIRECTION INPUT
+
+
+set_io -port_name HDMI_CABLE_REF_CLK_PAD_P  \
+    -pin_name AE27                   \
+    -DIRECTION INPUT
+
+set_io -port_name REF_CLK_PAD_N  \
+    -pin_name AF30                   \
+    -DIRECTION INPUT
+
+
+set_io -port_name REF_CLK_PAD_P  \
+    -pin_name AF29                   \
+    -DIRECTION INPUT
+
+
+
+
+
