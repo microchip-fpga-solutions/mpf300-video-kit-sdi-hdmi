@@ -26,7 +26,7 @@ set PF_XCVR_REF_CLKver {1.0.103}
 set PF_XCVR_REF_CLKver {1.0.103}
 set PF_XCVR_REF_CLKver {1.0.103}
 set RGBtoYCbCrver {4.6.0}
-set SDI_RXver {1.2.0}
+set SDI_RXver {1.2.1}
 set SDI_TXver {1.2.0}
 
 #tool profiles 

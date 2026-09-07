@@ -1,5 +1,5 @@
 source ./common/common.tcl
-set Prjname "mpf_an6141_v2025p1_df"
+set Prjname "mpf300-video-kit-sdi-hdmi"
 set PrjLocation "./$Prjname"
 
 

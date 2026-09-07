@@ -41,7 +41,7 @@ save_project
 
 # Programming job files can be imported in FlasPro Express standalone for programming the device
 export_prog_job \
-	-job_file_name {top} \
+	-job_file_name {mpf300-video-kit-sdi-hdmi}\
 	-export_dir ${PrjLocation}/designer/top/export \
 	-bitstream_file_type {TRUSTED_FACILITY} \
 	-bitstream_file_components {FABRIC SNVM} \
